@@ -12,31 +12,31 @@
     <form>
       <h2>Choose gradient direction: </h2>
       <div class="direction">
-        <input type="radio" name="direction" id="leftToRight">
+        <input checked type="radio" name="direction" id="leftToRight" value="to right">
         <label for="leftToRight">Left to right</label>      
       </div>
       <div class="direction">
-        <input type="radio" name="direction" id="rightToLeft">
+        <input type="radio" name="direction" id="rightToLeft" value="to left">
         <label for="rightToLeft">Right to left</label>      
       </div>
       <div class="direction">
-        <input type="radio" name="direction" id="topToBottom">
+        <input type="radio" name="direction" id="topToBottom" value="to bottom">
         <label for="topToBottom">Top to bottom</label>      
       </div>
       <div class="direction">
-        <input type="radio" name="direction" id="bottomToTop">
+        <input type="radio" name="direction" id="bottomToTop" value="to top">
         <label for="bottomToTop">Bottom to top</label>      
       </div>
       <div>
         <h2>Choose colors: </h2>
-        <input type="color" id="color1" value="#333333">
-        <input type="color" id="color2" value="#bbbbbb">
+        <input type="color" id="color1" value="#9772b1">
+        <input type="color" id="color2" value="#40444a">
         <h2>Generate code: </h2>
         <input type="submit" value="Generate">
       </div>
     </form>
     <h2>Finally, here is your CSS code:</h2>
-    <p>placeholder for the code </p>
+    <p id="code"></p>
   </div>
   <script src="main.js"></script>
 </body>
